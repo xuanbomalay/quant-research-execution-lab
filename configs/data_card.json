@@ -1,0 +1,68 @@
+{
+  "price": {
+    "provider": "Yahoo via yfinance",
+    "start": "2012-01-03 00:00:00",
+    "end": "2022-12-30 00:00:00",
+    "sha256": "7607fc501502cda5326b20f59b566eb79f044ff772a53319418f55103174f02f",
+    "scope": "fixed survivors; adjusted synthetic units; no delisted universe",
+    "missing_removed": 0
+  },
+  "universe": [
+    "AAPL",
+    "MSFT",
+    "IBM",
+    "INTC",
+    "KO",
+    "PEP",
+    "MCD",
+    "PG",
+    "XOM",
+    "CVX",
+    "CAT",
+    "MMM"
+  ],
+  "date_rows": 26796,
+  "unique_dates": 2233,
+  "target": "5-session adjusted open-to-open simple return; maturity stored",
+  "label_versions": [
+    {
+      "id": "open_h5_v1",
+      "decision": "t close",
+      "entry": "t+1 open",
+      "exit": "t+6 open",
+      "horizon": 5,
+      "basis": "adjusted simple return",
+      "maturity": "label_end5"
+    },
+    {
+      "id": "open_h10_v1",
+      "decision": "t close",
+      "entry": "t+1 open",
+      "exit": "t+11 open",
+      "horizon": 10,
+      "basis": "adjusted simple return",
+      "maturity": "label_end10"
+    }
+  ],
+  "filings": {
+    "issuer": "IBM",
+    "events": 33,
+    "source": "issuer directory linked main filings",
+    "dictionary": "official 1993-2025 workbook"
+  },
+  "split": {
+    "train_end_exclusive": "2019-01-01",
+    "validation_end_exclusive": "2021-01-01",
+    "purge_uses": "10-session maturity"
+  },
+  "limitations": [
+    "survivorship",
+    "coarse industry",
+    "lagged marketcap shares",
+    "missing other-issuer text",
+    "revised vendor data and SEC contexts",
+    "issuer mirror vintage not independently archived",
+    "overlapping daily targets; date summaries correlated",
+    "development windows already observed"
+  ]
+}

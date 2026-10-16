@@ -1,0 +1,700 @@
+check,status,lesson
+signal available before execution,PASS,2
+OLS window ends before signal session,PASS,2
+model accounting checks ran,PASS,2
+manual two-leg calculation,PASS,2
+rolling: same time window,PASS,2
+rolling: PnL conservation,PASS,2
+rolling: cost signs,PASS,2
+rolling: compound wealth,PASS,2
+rolling: unavailable closes portfolio,PASS,2
+fixed: same time window,PASS,2
+fixed: PnL conservation,PASS,2
+fixed: cost signs,PASS,2
+fixed: compound wealth,PASS,2
+fixed: unavailable closes portfolio,PASS,2
+unhedged: same time window,PASS,2
+unhedged: PnL conservation,PASS,2
+unhedged: cost signs,PASS,2
+unhedged: compound wealth,PASS,2
+unhedged: unavailable closes portfolio,PASS,2
+single_z: same time window,PASS,2
+single_z: PnL conservation,PASS,2
+single_z: cost signs,PASS,2
+single_z: compound wealth,PASS,2
+single_z: unavailable closes portfolio,PASS,2
+equal_weight: same time window,PASS,2
+equal_weight: PnL conservation,PASS,2
+equal_weight: cost signs,PASS,2
+equal_weight: compound wealth,PASS,2
+equal_weight: unavailable closes portfolio,PASS,2
+frozen_model: same time window,PASS,2
+frozen_model: PnL conservation,PASS,2
+frozen_model: cost signs,PASS,2
+frozen_model: compound wealth,PASS,2
+frozen_model: unavailable closes portfolio,PASS,2
+scenario_baseline: same time window,PASS,2
+scenario_baseline: PnL conservation,PASS,2
+scenario_baseline: cost signs,PASS,2
+scenario_baseline: compound wealth,PASS,2
+scenario_baseline: unavailable closes portfolio,PASS,2
+scenario_cost20: same time window,PASS,2
+scenario_cost20: PnL conservation,PASS,2
+scenario_cost20: cost signs,PASS,2
+scenario_cost20: compound wealth,PASS,2
+scenario_cost20: unavailable closes portfolio,PASS,2
+scenario_borrow15pct: same time window,PASS,2
+scenario_borrow15pct: PnL conservation,PASS,2
+scenario_borrow15pct: cost signs,PASS,2
+scenario_borrow15pct: compound wealth,PASS,2
+scenario_borrow15pct: unavailable closes portfolio,PASS,2
+scenario_unavailable_stress: same time window,PASS,2
+scenario_unavailable_stress: PnL conservation,PASS,2
+scenario_unavailable_stress: cost signs,PASS,2
+scenario_unavailable_stress: compound wealth,PASS,2
+scenario_unavailable_stress: unavailable closes portfolio,PASS,2
+scenario_no_coint_filter: same time window,PASS,2
+scenario_no_coint_filter: PnL conservation,PASS,2
+scenario_no_coint_filter: cost signs,PASS,2
+scenario_no_coint_filter: compound wealth,PASS,2
+scenario_no_coint_filter: unavailable closes portfolio,PASS,2
+scenario_diagnostic_cost20: same time window,PASS,2
+scenario_diagnostic_cost20: PnL conservation,PASS,2
+scenario_diagnostic_cost20: cost signs,PASS,2
+scenario_diagnostic_cost20: compound wealth,PASS,2
+scenario_diagnostic_cost20: unavailable closes portfolio,PASS,2
+scenario_diagnostic_borrow15pct: same time window,PASS,2
+scenario_diagnostic_borrow15pct: PnL conservation,PASS,2
+scenario_diagnostic_borrow15pct: cost signs,PASS,2
+scenario_diagnostic_borrow15pct: compound wealth,PASS,2
+scenario_diagnostic_borrow15pct: unavailable closes portfolio,PASS,2
+scenario_diagnostic_unavailable: same time window,PASS,2
+scenario_diagnostic_unavailable: PnL conservation,PASS,2
+scenario_diagnostic_unavailable: cost signs,PASS,2
+scenario_diagnostic_unavailable: compound wealth,PASS,2
+scenario_diagnostic_unavailable: unavailable closes portfolio,PASS,2
+scenario_diagnostic_no_cost: same time window,PASS,2
+scenario_diagnostic_no_cost: PnL conservation,PASS,2
+scenario_diagnostic_no_cost: cost signs,PASS,2
+scenario_diagnostic_no_cost: compound wealth,PASS,2
+scenario_diagnostic_no_cost: unavailable closes portfolio,PASS,2
+diagnostic_rolling: same time window,PASS,2
+diagnostic_rolling: PnL conservation,PASS,2
+diagnostic_rolling: cost signs,PASS,2
+diagnostic_rolling: compound wealth,PASS,2
+diagnostic_rolling: unavailable closes portfolio,PASS,2
+diagnostic_fixed: same time window,PASS,2
+diagnostic_fixed: PnL conservation,PASS,2
+diagnostic_fixed: cost signs,PASS,2
+diagnostic_fixed: compound wealth,PASS,2
+diagnostic_fixed: unavailable closes portfolio,PASS,2
+diagnostic_unhedged: same time window,PASS,2
+diagnostic_unhedged: PnL conservation,PASS,2
+diagnostic_unhedged: cost signs,PASS,2
+diagnostic_unhedged: compound wealth,PASS,2
+diagnostic_unhedged: unavailable closes portfolio,PASS,2
+SEC PIT availability audit,PASS,3
+training IC labels matured before validation,PASS,3
+daily asset-date unique,PASS,3
+French six factors and RF,PASS,3
+momentum industry orthogonality,PASS,3
+momentum size orthogonality,PASS,3
+quality industry orthogonality,PASS,3
+quality size orthogonality,PASS,3
+value industry orthogonality,PASS,3
+value size orthogonality,PASS,3
+momentum common window,PASS,3
+momentum equity conservation,PASS,3
+momentum long-only and gross cap,PASS,3
+momentum compounded wealth,PASS,3
+quality common window,PASS,3
+quality equity conservation,PASS,3
+quality long-only and gross cap,PASS,3
+quality compounded wealth,PASS,3
+value common window,PASS,3
+value equity conservation,PASS,3
+value long-only and gross cap,PASS,3
+value compounded wealth,PASS,3
+equal common window,PASS,3
+equal equity conservation,PASS,3
+equal long-only and gross cap,PASS,3
+equal compounded wealth,PASS,3
+trained common window,PASS,3
+trained equity conservation,PASS,3
+trained long-only and gross cap,PASS,3
+trained compounded wealth,PASS,3
+Q1 common window,PASS,3
+Q1 equity conservation,PASS,3
+Q1 long-only and gross cap,PASS,3
+Q1 compounded wealth,PASS,3
+Q2 common window,PASS,3
+Q2 equity conservation,PASS,3
+Q2 long-only and gross cap,PASS,3
+Q2 compounded wealth,PASS,3
+Q3 common window,PASS,3
+Q3 equity conservation,PASS,3
+Q3 long-only and gross cap,PASS,3
+Q3 compounded wealth,PASS,3
+momentum prefix recomputation,PASS,3
+actual portfolio FF5+Mom aligns full months,PASS,3
+actual docs with hash,PASS,4
+unique accession + event,PASS,4
+document first-public conservative bound,PASS,4
+entry after readiness,PASS,4
+market model uses past ended returns,PASS,4
+market model excludes announcement-day returns,PASS,4
+price feature availability,PASS,4
+5 trading-session exits,PASS,4
+event group folds,PASS,4
+train labels purged,PASS,4
+validation labels purged,PASS,4
+TFIDF train vocab frozen,PASS,4
+price_only common window,PASS,4
+price_only accounting,PASS,4
+price_only gross long cap,PASS,4
+price+LM common window,PASS,4
+price+LM accounting,PASS,4
+price+LM gross long cap,PASS,4
+price+TFIDF common window,PASS,4
+price+TFIDF accounting,PASS,4
+price+TFIDF gross long cap,PASS,4
+length_only common window,PASS,4
+length_only accounting,PASS,4
+length_only gross long cap,PASS,4
+date-ticker keys unique,PASS,5
+entire date belongs to one fold,PASS,5
+train maximum maturity before validation,PASS,5
+validation maximum maturity before eval,PASS,5
+lesson2 pair fit strictly past,PASS,5
+registered features equal pipeline inputs,PASS,5
+common signal interface causal,PASS,5
+strict decision before entry,PASS,5
+text available before decision,PASS,5
+other issuers text correctly missing,PASS,5
+all train labels and input prices finite,PASS,5
+injected duplicates explicitly exceed real rows,PASS,5
+dedup preserves clean training keys,PASS,5
+manual y5 at 0,PASS,5
+manual y10 at 0,PASS,5
+maturity timestamp at 0,PASS,5
+manual y5 at 2952,PASS,5
+manual y10 at 2952,PASS,5
+maturity timestamp at 2952,PASS,5
+manual y5 at 5903,PASS,5
+manual y10 at 5903,PASS,5
+maturity timestamp at 5903,PASS,5
+imputer median equals train only,PASS,5
+future transformation does not refit,PASS,5
+clip bounds fit actual train copy,PASS,5
+past-only ret5 prefix,PASS,5
+zero common execution window,PASS,5
+zero conserved PnL,PASS,5
+zero cost nonnegative,PASS,5
+zero long gross constraint,PASS,5
+zero compound wealth,PASS,5
+Ridge common execution window,PASS,5
+Ridge conserved PnL,PASS,5
+Ridge cost nonnegative,PASS,5
+Ridge long gross constraint,PASS,5
+Ridge compound wealth,PASS,5
+LightGBM common execution window,PASS,5
+LightGBM conserved PnL,PASS,5
+LightGBM cost nonnegative,PASS,5
+LightGBM long gross constraint,PASS,5
+LightGBM compound wealth,PASS,5
+Logistic common execution window,PASS,5
+Logistic conserved PnL,PASS,5
+Logistic cost nonnegative,PASS,5
+Logistic long gross constraint,PASS,5
+Logistic compound wealth,PASS,5
+ablation_price_only common execution window,PASS,5
+ablation_price_only conserved PnL,PASS,5
+ablation_price_only cost nonnegative,PASS,5
+ablation_price_only long gross constraint,PASS,5
+ablation_price_only compound wealth,PASS,5
+ablation_no_text common execution window,PASS,5
+ablation_no_text conserved PnL,PASS,5
+ablation_no_text cost nonnegative,PASS,5
+ablation_no_text long gross constraint,PASS,5
+ablation_no_text compound wealth,PASS,5
+ablation_no_stat_arb common execution window,PASS,5
+ablation_no_stat_arb conserved PnL,PASS,5
+ablation_no_stat_arb cost nonnegative,PASS,5
+ablation_no_stat_arb long gross constraint,PASS,5
+ablation_no_stat_arb compound wealth,PASS,5
+ablation_no_fundamental common execution window,PASS,5
+ablation_no_fundamental conserved PnL,PASS,5
+ablation_no_fundamental cost nonnegative,PASS,5
+ablation_no_fundamental long gross constraint,PASS,5
+ablation_no_fundamental compound wealth,PASS,5
+ablation_fundamental_only common execution window,PASS,5
+ablation_fundamental_only conserved PnL,PASS,5
+ablation_fundamental_only cost nonnegative,PASS,5
+ablation_fundamental_only long gross constraint,PASS,5
+ablation_fundamental_only compound wealth,PASS,5
+ablation_all common execution window,PASS,5
+ablation_all conserved PnL,PASS,5
+ablation_all cost nonnegative,PASS,5
+ablation_all long gross constraint,PASS,5
+ablation_all compound wealth,PASS,5
+data_clean_missing_indicator common execution window,PASS,5
+data_clean_missing_indicator conserved PnL,PASS,5
+data_clean_missing_indicator cost nonnegative,PASS,5
+data_clean_missing_indicator long gross constraint,PASS,5
+data_clean_missing_indicator compound wealth,PASS,5
+data_injected_duplicates common execution window,PASS,5
+data_injected_duplicates conserved PnL,PASS,5
+data_injected_duplicates cost nonnegative,PASS,5
+data_injected_duplicates long gross constraint,PASS,5
+data_injected_duplicates compound wealth,PASS,5
+data_deduplicated common execution window,PASS,5
+data_deduplicated conserved PnL,PASS,5
+data_deduplicated cost nonnegative,PASS,5
+data_deduplicated long gross constraint,PASS,5
+data_deduplicated compound wealth,PASS,5
+data_injected_outliers common execution window,PASS,5
+data_injected_outliers conserved PnL,PASS,5
+data_injected_outliers cost nonnegative,PASS,5
+data_injected_outliers long gross constraint,PASS,5
+data_injected_outliers compound wealth,PASS,5
+data_outliers_train_clip common execution window,PASS,5
+data_outliers_train_clip conserved PnL,PASS,5
+data_outliers_train_clip cost nonnegative,PASS,5
+data_outliers_train_clip long gross constraint,PASS,5
+data_outliers_train_clip compound wealth,PASS,5
+data_no_missing_indicator common execution window,PASS,5
+data_no_missing_indicator conserved PnL,PASS,5
+data_no_missing_indicator cost nonnegative,PASS,5
+data_no_missing_indicator long gross constraint,PASS,5
+data_no_missing_indicator compound wealth,PASS,5
+data_complete_case_train common execution window,PASS,5
+data_complete_case_train conserved PnL,PASS,5
+data_complete_case_train cost nonnegative,PASS,5
+data_complete_case_train long gross constraint,PASS,5
+data_complete_case_train compound wealth,PASS,5
+data_date_balanced_weights common execution window,PASS,5
+data_date_balanced_weights conserved PnL,PASS,5
+data_date_balanced_weights cost nonnegative,PASS,5
+data_date_balanced_weights long gross constraint,PASS,5
+data_date_balanced_weights compound wealth,PASS,5
+data_recency_weights common execution window,PASS,5
+data_recency_weights conserved PnL,PASS,5
+data_recency_weights cost nonnegative,PASS,5
+data_recency_weights long gross constraint,PASS,5
+data_recency_weights compound wealth,PASS,5
+data_label_h10_to_h5 common execution window,PASS,5
+data_label_h10_to_h5 conserved PnL,PASS,5
+data_label_h10_to_h5 cost nonnegative,PASS,5
+data_label_h10_to_h5 long gross constraint,PASS,5
+data_label_h10_to_h5 compound wealth,PASS,5
+zero baseline remains cash,PASS,5
+TPU executed,PASS,6
+covariance asof before open,PASS,6
+frozen state threshold uses only fit dates,PASS,6
+long-short net and gross,PASS,6
+unavailable borrow closes portfolio,PASS,6
+ES is tail loss at or above VaR,PASS,6
+equal same window,PASS,6
+equal self finance,PASS,6
+equal positive costs,PASS,6
+equal position constraints,PASS,6
+equal turnover cap or recorded forced risk,PASS,6
+equal compound wealth,PASS,6
+inverse_vol same window,PASS,6
+inverse_vol self finance,PASS,6
+inverse_vol positive costs,PASS,6
+inverse_vol position constraints,PASS,6
+inverse_vol turnover cap or recorded forced risk,PASS,6
+inverse_vol compound wealth,PASS,6
+shrink_minvar same window,PASS,6
+shrink_minvar self finance,PASS,6
+shrink_minvar positive costs,PASS,6
+shrink_minvar position constraints,PASS,6
+shrink_minvar turnover cap or recorded forced risk,PASS,6
+shrink_minvar compound wealth,PASS,6
+signal_tilt same window,PASS,6
+signal_tilt self finance,PASS,6
+signal_tilt positive costs,PASS,6
+signal_tilt position constraints,PASS,6
+signal_tilt turnover cap or recorded forced risk,PASS,6
+signal_tilt compound wealth,PASS,6
+state_filtered same window,PASS,6
+state_filtered self finance,PASS,6
+state_filtered positive costs,PASS,6
+state_filtered position constraints,PASS,6
+state_filtered turnover cap or recorded forced risk,PASS,6
+state_filtered compound wealth,PASS,6
+risk_matched_unfiltered same window,PASS,6
+risk_matched_unfiltered self finance,PASS,6
+risk_matched_unfiltered positive costs,PASS,6
+risk_matched_unfiltered position constraints,PASS,6
+risk_matched_unfiltered turnover cap or recorded forced risk,PASS,6
+risk_matched_unfiltered compound wealth,PASS,6
+GARCH_risk_scaled same window,PASS,6
+GARCH_risk_scaled self finance,PASS,6
+GARCH_risk_scaled positive costs,PASS,6
+GARCH_risk_scaled position constraints,PASS,6
+GARCH_risk_scaled turnover cap or recorded forced risk,PASS,6
+GARCH_risk_scaled compound wealth,PASS,6
+source explicitly actual or synthetic,PASS,7
+volume schedule ends before execution,PASS,7
+buy/sell quotes ordered,PASS,7
+microprice inside spread,PASS,7
+"imbalance in [-1,1]",PASS,7
+manual queue conservation,PASS,7
+TWAP_latency_0.0 temporal latency,PASS,7
+TWAP_latency_0.0 fill conservation,PASS,7
+TWAP_latency_0.0 partial not fabricated,PASS,7
+TWAP_latency_0.25 temporal latency,PASS,7
+TWAP_latency_0.25 fill conservation,PASS,7
+TWAP_latency_0.25 partial not fabricated,PASS,7
+TWAP_latency_1.0 temporal latency,PASS,7
+TWAP_latency_1.0 fill conservation,PASS,7
+TWAP_latency_1.0 partial not fabricated,PASS,7
+past_volume_schedule_latency_0.0 temporal latency,PASS,7
+past_volume_schedule_latency_0.0 fill conservation,PASS,7
+past_volume_schedule_latency_0.0 partial not fabricated,PASS,7
+past_volume_schedule_latency_0.25 temporal latency,PASS,7
+past_volume_schedule_latency_0.25 fill conservation,PASS,7
+past_volume_schedule_latency_0.25 partial not fabricated,PASS,7
+past_volume_schedule_latency_1.0 temporal latency,PASS,7
+past_volume_schedule_latency_1.0 fill conservation,PASS,7
+past_volume_schedule_latency_1.0 partial not fabricated,PASS,7
+"(False, 0.0, 1.0) cash-inventory mark",PASS,7
+"(False, 0.0, 1.0) inventory cap",PASS,7
+"(False, 0.0, 1.0) displayed trade only",PASS,7
+"(False, 0.0, 1.0) latency and queue",PASS,7
+"(False, 0.0, 2.0) cash-inventory mark",PASS,7
+"(False, 0.0, 2.0) inventory cap",PASS,7
+"(False, 0.0, 2.0) displayed trade only",PASS,7
+"(False, 0.0, 2.0) latency and queue",PASS,7
+"(False, 0.25, 1.0) cash-inventory mark",PASS,7
+"(False, 0.25, 1.0) inventory cap",PASS,7
+"(False, 0.25, 1.0) displayed trade only",PASS,7
+"(False, 0.25, 1.0) latency and queue",PASS,7
+"(False, 0.25, 2.0) cash-inventory mark",PASS,7
+"(False, 0.25, 2.0) inventory cap",PASS,7
+"(False, 0.25, 2.0) displayed trade only",PASS,7
+"(False, 0.25, 2.0) latency and queue",PASS,7
+"(False, 1.0, 1.0) cash-inventory mark",PASS,7
+"(False, 1.0, 1.0) inventory cap",PASS,7
+"(False, 1.0, 1.0) displayed trade only",PASS,7
+"(False, 1.0, 1.0) latency and queue",PASS,7
+"(False, 1.0, 2.0) cash-inventory mark",PASS,7
+"(False, 1.0, 2.0) inventory cap",PASS,7
+"(False, 1.0, 2.0) displayed trade only",PASS,7
+"(False, 1.0, 2.0) latency and queue",PASS,7
+"(True, 0.0, 1.0) cash-inventory mark",PASS,7
+"(True, 0.0, 1.0) inventory cap",PASS,7
+"(True, 0.0, 1.0) displayed trade only",PASS,7
+"(True, 0.0, 1.0) latency and queue",PASS,7
+"(True, 0.0, 2.0) cash-inventory mark",PASS,7
+"(True, 0.0, 2.0) inventory cap",PASS,7
+"(True, 0.0, 2.0) displayed trade only",PASS,7
+"(True, 0.0, 2.0) latency and queue",PASS,7
+"(True, 0.25, 1.0) cash-inventory mark",PASS,7
+"(True, 0.25, 1.0) inventory cap",PASS,7
+"(True, 0.25, 1.0) displayed trade only",PASS,7
+"(True, 0.25, 1.0) latency and queue",PASS,7
+"(True, 0.25, 2.0) cash-inventory mark",PASS,7
+"(True, 0.25, 2.0) inventory cap",PASS,7
+"(True, 0.25, 2.0) displayed trade only",PASS,7
+"(True, 0.25, 2.0) latency and queue",PASS,7
+"(True, 1.0, 1.0) cash-inventory mark",PASS,7
+"(True, 1.0, 1.0) inventory cap",PASS,7
+"(True, 1.0, 1.0) displayed trade only",PASS,7
+"(True, 1.0, 1.0) latency and queue",PASS,7
+"(True, 1.0, 2.0) cash-inventory mark",PASS,7
+"(True, 1.0, 2.0) inventory cap",PASS,7
+"(True, 1.0, 2.0) displayed trade only",PASS,7
+"(True, 1.0, 2.0) latency and queue",PASS,7
+SB3 five completed seeds,PASS,8
+TPU five seeds per reward variant,PASS,8
+fixed actual training budget,PASS,8
+normalizer train median,PASS,8
+train end before validation,PASS,8
+validation end before evaluation,PASS,8
+future return absent from current state,PASS,8
+manual self financing fee,PASS,8
+reward is net log return,PASS,8
+artificial horizon is truncation,PASS,8
+data boundary is termination,PASS,8
+"SB3(11, 'validation') accounting",PASS,8
+"SB3(11, 'validation') constraints",PASS,8
+"SB3(11, 'validation') no invalid action",PASS,8
+"SB3(11, 'validation') turnover bound",PASS,8
+"SB3(11, 'development_eval') accounting",PASS,8
+"SB3(11, 'development_eval') constraints",PASS,8
+"SB3(11, 'development_eval') no invalid action",PASS,8
+"SB3(11, 'development_eval') turnover bound",PASS,8
+"SB3(22, 'validation') accounting",PASS,8
+"SB3(22, 'validation') constraints",PASS,8
+"SB3(22, 'validation') no invalid action",PASS,8
+"SB3(22, 'validation') turnover bound",PASS,8
+"SB3(22, 'development_eval') accounting",PASS,8
+"SB3(22, 'development_eval') constraints",PASS,8
+"SB3(22, 'development_eval') no invalid action",PASS,8
+"SB3(22, 'development_eval') turnover bound",PASS,8
+"SB3(33, 'validation') accounting",PASS,8
+"SB3(33, 'validation') constraints",PASS,8
+"SB3(33, 'validation') no invalid action",PASS,8
+"SB3(33, 'validation') turnover bound",PASS,8
+"SB3(33, 'development_eval') accounting",PASS,8
+"SB3(33, 'development_eval') constraints",PASS,8
+"SB3(33, 'development_eval') no invalid action",PASS,8
+"SB3(33, 'development_eval') turnover bound",PASS,8
+"SB3(44, 'validation') accounting",PASS,8
+"SB3(44, 'validation') constraints",PASS,8
+"SB3(44, 'validation') no invalid action",PASS,8
+"SB3(44, 'validation') turnover bound",PASS,8
+"SB3(44, 'development_eval') accounting",PASS,8
+"SB3(44, 'development_eval') constraints",PASS,8
+"SB3(44, 'development_eval') no invalid action",PASS,8
+"SB3(44, 'development_eval') turnover bound",PASS,8
+"SB3(55, 'validation') accounting",PASS,8
+"SB3(55, 'validation') constraints",PASS,8
+"SB3(55, 'validation') no invalid action",PASS,8
+"SB3(55, 'validation') turnover bound",PASS,8
+"SB3(55, 'development_eval') accounting",PASS,8
+"SB3(55, 'development_eval') constraints",PASS,8
+"SB3(55, 'development_eval') no invalid action",PASS,8
+"SB3(55, 'development_eval') turnover bound",PASS,8
+"JAX(0.05, 11, 'validation') accounting",PASS,8
+"JAX(0.05, 11, 'validation') constraints",PASS,8
+"JAX(0.05, 11, 'validation') no invalid action",PASS,8
+"JAX(0.05, 11, 'validation') turnover bound",PASS,8
+"JAX(0.05, 11, 'development_eval') accounting",PASS,8
+"JAX(0.05, 11, 'development_eval') constraints",PASS,8
+"JAX(0.05, 11, 'development_eval') no invalid action",PASS,8
+"JAX(0.05, 11, 'development_eval') turnover bound",PASS,8
+"JAX(0.05, 22, 'validation') accounting",PASS,8
+"JAX(0.05, 22, 'validation') constraints",PASS,8
+"JAX(0.05, 22, 'validation') no invalid action",PASS,8
+"JAX(0.05, 22, 'validation') turnover bound",PASS,8
+"JAX(0.05, 22, 'development_eval') accounting",PASS,8
+"JAX(0.05, 22, 'development_eval') constraints",PASS,8
+"JAX(0.05, 22, 'development_eval') no invalid action",PASS,8
+"JAX(0.05, 22, 'development_eval') turnover bound",PASS,8
+"JAX(0.05, 33, 'validation') accounting",PASS,8
+"JAX(0.05, 33, 'validation') constraints",PASS,8
+"JAX(0.05, 33, 'validation') no invalid action",PASS,8
+"JAX(0.05, 33, 'validation') turnover bound",PASS,8
+"JAX(0.05, 33, 'development_eval') accounting",PASS,8
+"JAX(0.05, 33, 'development_eval') constraints",PASS,8
+"JAX(0.05, 33, 'development_eval') no invalid action",PASS,8
+"JAX(0.05, 33, 'development_eval') turnover bound",PASS,8
+"JAX(0.05, 44, 'validation') accounting",PASS,8
+"JAX(0.05, 44, 'validation') constraints",PASS,8
+"JAX(0.05, 44, 'validation') no invalid action",PASS,8
+"JAX(0.05, 44, 'validation') turnover bound",PASS,8
+"JAX(0.05, 44, 'development_eval') accounting",PASS,8
+"JAX(0.05, 44, 'development_eval') constraints",PASS,8
+"JAX(0.05, 44, 'development_eval') no invalid action",PASS,8
+"JAX(0.05, 44, 'development_eval') turnover bound",PASS,8
+"JAX(0.05, 55, 'validation') accounting",PASS,8
+"JAX(0.05, 55, 'validation') constraints",PASS,8
+"JAX(0.05, 55, 'validation') no invalid action",PASS,8
+"JAX(0.05, 55, 'validation') turnover bound",PASS,8
+"JAX(0.05, 55, 'development_eval') accounting",PASS,8
+"JAX(0.05, 55, 'development_eval') constraints",PASS,8
+"JAX(0.05, 55, 'development_eval') no invalid action",PASS,8
+"JAX(0.05, 55, 'development_eval') turnover bound",PASS,8
+"JAX(0.0, 11, 'validation') accounting",PASS,8
+"JAX(0.0, 11, 'validation') constraints",PASS,8
+"JAX(0.0, 11, 'validation') no invalid action",PASS,8
+"JAX(0.0, 11, 'validation') turnover bound",PASS,8
+"JAX(0.0, 11, 'development_eval') accounting",PASS,8
+"JAX(0.0, 11, 'development_eval') constraints",PASS,8
+"JAX(0.0, 11, 'development_eval') no invalid action",PASS,8
+"JAX(0.0, 11, 'development_eval') turnover bound",PASS,8
+"JAX(0.0, 22, 'validation') accounting",PASS,8
+"JAX(0.0, 22, 'validation') constraints",PASS,8
+"JAX(0.0, 22, 'validation') no invalid action",PASS,8
+"JAX(0.0, 22, 'validation') turnover bound",PASS,8
+"JAX(0.0, 22, 'development_eval') accounting",PASS,8
+"JAX(0.0, 22, 'development_eval') constraints",PASS,8
+"JAX(0.0, 22, 'development_eval') no invalid action",PASS,8
+"JAX(0.0, 22, 'development_eval') turnover bound",PASS,8
+"JAX(0.0, 33, 'validation') accounting",PASS,8
+"JAX(0.0, 33, 'validation') constraints",PASS,8
+"JAX(0.0, 33, 'validation') no invalid action",PASS,8
+"JAX(0.0, 33, 'validation') turnover bound",PASS,8
+"JAX(0.0, 33, 'development_eval') accounting",PASS,8
+"JAX(0.0, 33, 'development_eval') constraints",PASS,8
+"JAX(0.0, 33, 'development_eval') no invalid action",PASS,8
+"JAX(0.0, 33, 'development_eval') turnover bound",PASS,8
+"JAX(0.0, 44, 'validation') accounting",PASS,8
+"JAX(0.0, 44, 'validation') constraints",PASS,8
+"JAX(0.0, 44, 'validation') no invalid action",PASS,8
+"JAX(0.0, 44, 'validation') turnover bound",PASS,8
+"JAX(0.0, 44, 'development_eval') accounting",PASS,8
+"JAX(0.0, 44, 'development_eval') constraints",PASS,8
+"JAX(0.0, 44, 'development_eval') no invalid action",PASS,8
+"JAX(0.0, 44, 'development_eval') turnover bound",PASS,8
+"JAX(0.0, 55, 'validation') accounting",PASS,8
+"JAX(0.0, 55, 'validation') constraints",PASS,8
+"JAX(0.0, 55, 'validation') no invalid action",PASS,8
+"JAX(0.0, 55, 'validation') turnover bound",PASS,8
+"JAX(0.0, 55, 'development_eval') accounting",PASS,8
+"JAX(0.0, 55, 'development_eval') constraints",PASS,8
+"JAX(0.0, 55, 'development_eval') no invalid action",PASS,8
+"JAX(0.0, 55, 'development_eval') turnover bound",PASS,8
+put-call parity,PASS,9
+ATM hand calculation,PASS,9
+recovered implied vol,PASS,9
+finite-difference Greeks,PASS,9
+call QuantLib price,PASS,9
+call QuantLib delta,PASS,9
+call QuantLib gamma,PASS,9
+call QuantLib vega,PASS,9
+call QuantLib theta,PASS,9
+put QuantLib price,PASS,9
+put QuantLib delta,PASS,9
+put QuantLib gamma,PASS,9
+put QuantLib vega,PASS,9
+put QuantLib theta,PASS,9
+expiry intrinsic,PASS,9
+tree refinement,PASS,9
+TPU Monte Carlo location,PASS,9
+Monte Carlo sampling agreement,PASS,9
+"('risk_neutral_GBM', 1, 0.0) conserved rebalance",PASS,9
+"('risk_neutral_GBM', 1, 0.0) final zero inventory",PASS,9
+"('risk_neutral_GBM', 1, 0.0) nonnegative fee",PASS,9
+"('risk_neutral_GBM', 1, 1.0) conserved rebalance",PASS,9
+"('risk_neutral_GBM', 1, 1.0) final zero inventory",PASS,9
+"('risk_neutral_GBM', 1, 1.0) nonnegative fee",PASS,9
+"('risk_neutral_GBM', 5, 0.0) conserved rebalance",PASS,9
+"('risk_neutral_GBM', 5, 0.0) final zero inventory",PASS,9
+"('risk_neutral_GBM', 5, 0.0) nonnegative fee",PASS,9
+"('risk_neutral_GBM', 5, 1.0) conserved rebalance",PASS,9
+"('risk_neutral_GBM', 5, 1.0) final zero inventory",PASS,9
+"('risk_neutral_GBM', 5, 1.0) nonnegative fee",PASS,9
+"('risk_neutral_GBM', 21, 0.0) conserved rebalance",PASS,9
+"('risk_neutral_GBM', 21, 0.0) final zero inventory",PASS,9
+"('risk_neutral_GBM', 21, 0.0) nonnegative fee",PASS,9
+"('risk_neutral_GBM', 21, 1.0) conserved rebalance",PASS,9
+"('risk_neutral_GBM', 21, 1.0) final zero inventory",PASS,9
+"('risk_neutral_GBM', 21, 1.0) nonnegative fee",PASS,9
+"('minus20pct_jump_stress', 1, 0.0) conserved rebalance",PASS,9
+"('minus20pct_jump_stress', 1, 0.0) final zero inventory",PASS,9
+"('minus20pct_jump_stress', 1, 0.0) nonnegative fee",PASS,9
+"('minus20pct_jump_stress', 1, 1.0) conserved rebalance",PASS,9
+"('minus20pct_jump_stress', 1, 1.0) final zero inventory",PASS,9
+"('minus20pct_jump_stress', 1, 1.0) nonnegative fee",PASS,9
+"('minus20pct_jump_stress', 5, 0.0) conserved rebalance",PASS,9
+"('minus20pct_jump_stress', 5, 0.0) final zero inventory",PASS,9
+"('minus20pct_jump_stress', 5, 0.0) nonnegative fee",PASS,9
+"('minus20pct_jump_stress', 5, 1.0) conserved rebalance",PASS,9
+"('minus20pct_jump_stress', 5, 1.0) final zero inventory",PASS,9
+"('minus20pct_jump_stress', 5, 1.0) nonnegative fee",PASS,9
+"('minus20pct_jump_stress', 21, 0.0) conserved rebalance",PASS,9
+"('minus20pct_jump_stress', 21, 0.0) final zero inventory",PASS,9
+"('minus20pct_jump_stress', 21, 0.0) nonnegative fee",PASS,9
+"('minus20pct_jump_stress', 21, 1.0) conserved rebalance",PASS,9
+"('minus20pct_jump_stress', 21, 1.0) final zero inventory",PASS,9
+"('minus20pct_jump_stress', 21, 1.0) nonnegative fee",PASS,9
+risk_neutral_GBM1 fee reduces same-path PnL,PASS,9
+risk_neutral_GBM5 fee reduces same-path PnL,PASS,9
+risk_neutral_GBM21 fee reduces same-path PnL,PASS,9
+minus20pct_jump_stress1 fee reduces same-path PnL,PASS,9
+minus20pct_jump_stress5 fee reduces same-path PnL,PASS,9
+minus20pct_jump_stress21 fee reduces same-path PnL,PASS,9
+real VIX manifest,PASS,9
+RV labels end exactly 30 calendar days,PASS,9
+future maturity not treated as current feature,PASS,9
+lesson 2 completed checks,PASS,10
+lesson 3 completed checks,PASS,10
+lesson 4 completed checks,PASS,10
+lesson 5 completed checks,PASS,10
+lesson 6 completed checks,PASS,10
+lesson 7 completed checks,PASS,10
+lesson 8 completed checks,PASS,10
+lesson 9 completed checks,PASS,10
+outer day groups unique,PASS,10
+outer asset-date unique,PASS,10
+all outer labels mature before embargo,PASS,10
+inner training before validation,PASS,10
+full outer predictions strictly prior to execution,PASS,10
+all inner trials kept,PASS,10
+trial lower bound disclosed,PASS,10
+bootstrap interval ordered,PASS,10
+DSR probability range,PASS,10
+DSR more assumed trials never helps,PASS,10
+no pristine holdout claim,PASS,10
+no real HFT claim,PASS,10
+actual TPU arrays and checkpoints,PASS,10
+full one shared window,PASS,10
+full equity accounting,PASS,10
+full compounded return,PASS,10
+full weight constraints,PASS,10
+full nonnegative costs,PASS,10
+full turnover and forced-risk audit,PASS,10
+no_state_filter one shared window,PASS,10
+no_state_filter equity accounting,PASS,10
+no_state_filter compounded return,PASS,10
+no_state_filter weight constraints,PASS,10
+no_state_filter nonnegative costs,PASS,10
+no_state_filter turnover and forced-risk audit,PASS,10
+no_text one shared window,PASS,10
+no_text equity accounting,PASS,10
+no_text compounded return,PASS,10
+no_text weight constraints,PASS,10
+no_text nonnegative costs,PASS,10
+no_text turnover and forced-risk audit,PASS,10
+no_ML one shared window,PASS,10
+no_ML equity accounting,PASS,10
+no_ML compounded return,PASS,10
+no_ML weight constraints,PASS,10
+no_ML nonnegative costs,PASS,10
+no_ML turnover and forced-risk audit,PASS,10
+no_RL one shared window,PASS,10
+no_RL equity accounting,PASS,10
+no_RL compounded return,PASS,10
+no_RL weight constraints,PASS,10
+no_RL nonnegative costs,PASS,10
+no_RL turnover and forced-risk audit,PASS,10
+equal_reference one shared window,PASS,10
+equal_reference equity accounting,PASS,10
+equal_reference compounded return,PASS,10
+equal_reference weight constraints,PASS,10
+equal_reference nonnegative costs,PASS,10
+equal_reference turnover and forced-risk audit,PASS,10
+no_text_riskmatched one shared window,PASS,10
+no_text_riskmatched equity accounting,PASS,10
+no_text_riskmatched compounded return,PASS,10
+no_text_riskmatched weight constraints,PASS,10
+no_text_riskmatched nonnegative costs,PASS,10
+no_text_riskmatched turnover and forced-risk audit,PASS,10
+no_ML_riskmatched one shared window,PASS,10
+no_ML_riskmatched equity accounting,PASS,10
+no_ML_riskmatched compounded return,PASS,10
+no_ML_riskmatched weight constraints,PASS,10
+no_ML_riskmatched nonnegative costs,PASS,10
+no_ML_riskmatched turnover and forced-risk audit,PASS,10
+no_RL_riskmatched one shared window,PASS,10
+no_RL_riskmatched equity accounting,PASS,10
+no_RL_riskmatched compounded return,PASS,10
+no_RL_riskmatched weight constraints,PASS,10
+no_RL_riskmatched nonnegative costs,PASS,10
+no_RL_riskmatched turnover and forced-risk audit,PASS,10
+no_state_filter_riskmatched one shared window,PASS,10
+no_state_filter_riskmatched equity accounting,PASS,10
+no_state_filter_riskmatched compounded return,PASS,10
+no_state_filter_riskmatched weight constraints,PASS,10
+no_state_filter_riskmatched nonnegative costs,PASS,10
+no_state_filter_riskmatched turnover and forced-risk audit,PASS,10
+full_zero_cost one shared window,PASS,10
+full_zero_cost equity accounting,PASS,10
+full_zero_cost compounded return,PASS,10
+full_zero_cost weight constraints,PASS,10
+full_zero_cost nonnegative costs,PASS,10
+full_zero_cost turnover and forced-risk audit,PASS,10
+full_10bp one shared window,PASS,10
+full_10bp equity accounting,PASS,10
+full_10bp compounded return,PASS,10
+full_10bp weight constraints,PASS,10
+full_10bp nonnegative costs,PASS,10
+full_10bp turnover and forced-risk audit,PASS,10
+zero-cost account pays no fees,PASS,10
+outer transform never refits,PASS,10
+future perturbation does not alter historical return,PASS,10

@@ -1,0 +1,6 @@
+hypothesis,delta_net_return,observed_result,reject_reason_or_limit
+full improves net return vs no_text,7.967332963909612e-05,positive_descriptive_difference_only,development data already observed; no independent final holdout; exposure and costs differ
+full improves net return vs no_ML,0.04681888905978293,positive_descriptive_difference_only,development data already observed; no independent final holdout; exposure and costs differ
+full improves net return vs no_RL,0.019386883842442915,positive_descriptive_difference_only,development data already observed; no independent final holdout; exposure and costs differ
+full improves net return vs no_state_filter,-0.03394609487525169,not_supported_in_this_window,development data already observed; no independent final holdout; exposure and costs differ
+full improves net return vs equal_reference,-0.10538249116428977,not_supported_in_this_window,development data already observed; no independent final holdout; exposure and costs differ

@@ -1,0 +1,30 @@
+{
+  "frozen_utc": "2026-10-16T05:54:56.685096+00:00",
+  "outer_years": [
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "inner_alpha_grid": [
+    1.0,
+    10.0,
+    100.0
+  ],
+  "label": "5-session adjusted open return",
+  "embargo_sessions": 5,
+  "main_weights": {
+    "trend": 0.2,
+    "factor": 0.25,
+    "text": 0.05,
+    "ML": 0.25,
+    "RL": 0.25
+  },
+  "cost_bps_per_leg": 5,
+  "gross_cap": 0.8,
+  "single_cap": 0.15,
+  "industry_cap": 0.35,
+  "turnover_cap": 0.25,
+  "holdout_status": "not pristine: 2023–2026 previously displayed; 2021–2022 reused in development",
+  "selection": "inner past-year MSE only"
+}

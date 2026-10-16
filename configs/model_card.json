@@ -1,0 +1,109 @@
+{
+  "models": [
+    {
+      "id": "zero",
+      "kind": "regression",
+      "parameter": "constant=0",
+      "training_target": "y5"
+    },
+    {
+      "id": "Ridge",
+      "kind": "regression",
+      "parameter": "alpha=10",
+      "training_target": "y5"
+    },
+    {
+      "id": "LightGBM",
+      "kind": "regression",
+      "parameter": "{\"n_estimators\": 120, \"learning_rate\": 0.05, \"num_leaves\": 15, \"max_depth\": 4, \"min_child_samples\": 100, \"reg_lambda\": 10, \"random_state\": 42, \"n_jobs\": 2, \"verbosity\": -1, \"deterministic\": true, \"force_col_wise\": true}",
+      "training_target": "y5"
+    },
+    {
+      "id": "Logistic",
+      "kind": "classification/ranking",
+      "parameter": "C=1; threshold=.5",
+      "training_target": "y5>0"
+    }
+  ],
+  "frozen_fit_last_decision": "2018-12-13 00:00:00",
+  "fit_last_maturity": "2018-12-31 09:30:00-05:00",
+  "all_preprocessing": "fit on training only",
+  "trade_rule": "top3 positive regression prediction / Logistic p>.5; 0.8 long target; decision every5 sessions; daily weight maintenance",
+  "cost": "3bp commission +2bp slippage each leg; adjusted synthetic units; no taxes/market impact",
+  "data_experiments": [
+    {
+      "id": "clean_missing_indicator",
+      "clip": false,
+      "indicator": true,
+      "label": "y5",
+      "injected": false
+    },
+    {
+      "id": "injected_duplicates",
+      "clip": false,
+      "indicator": true,
+      "label": "y5",
+      "injected": true
+    },
+    {
+      "id": "deduplicated",
+      "clip": false,
+      "indicator": true,
+      "label": "y5",
+      "injected": false
+    },
+    {
+      "id": "injected_outliers",
+      "clip": false,
+      "indicator": true,
+      "label": "y5",
+      "injected": true
+    },
+    {
+      "id": "outliers_train_clip",
+      "clip": true,
+      "indicator": true,
+      "label": "y5",
+      "injected": true
+    },
+    {
+      "id": "no_missing_indicator",
+      "clip": false,
+      "indicator": false,
+      "label": "y5",
+      "injected": false
+    },
+    {
+      "id": "complete_case_train",
+      "clip": false,
+      "indicator": true,
+      "label": "y5",
+      "injected": false
+    },
+    {
+      "id": "date_balanced_weights",
+      "clip": false,
+      "indicator": true,
+      "label": "y5",
+      "injected": false,
+      "weighted": true
+    },
+    {
+      "id": "recency_weights",
+      "clip": false,
+      "indicator": true,
+      "label": "y5",
+      "injected": false,
+      "weighted": "recency"
+    },
+    {
+      "id": "label_h10_to_h5",
+      "clip": false,
+      "indicator": true,
+      "label": "y10",
+      "injected": false
+    }
+  ],
+  "not_proven": "independent unseen performance or causal text advantage",
+  "checks": 127
+}

@@ -1,0 +1,2 @@
+# Data provenance and redistribution
+Raw market data, SEC filing bodies and LM lexicons are deliberately excluded. Fetchers are in the notebooks; manifests record URLs, hashes and retrieval times. Recheck provider terms and fair-access rules. The LOBSTER endpoint failed in this run; microstructure results are explicitly synthetic mechanism tests. Historical prices and company-facts may be revised. Fixed surviving issuers do not form a survivorship-free universe.

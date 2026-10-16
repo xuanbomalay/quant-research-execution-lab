@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-16T05:37:27.544910+00:00",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "jax": "0.7.2",
+  "devices": [
+    "TPU_0(process=0,(0,0,0,0))"
+  ],
+  "TPU_checksum": 8576033792.0,
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "arch": "7.2.0",
+    "gymnasium": "1.2.2",
+    "stable-baselines3": "2.7.0",
+    "QuantLib": "1.40"
+  }
+}

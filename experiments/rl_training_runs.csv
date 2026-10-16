@@ -1,0 +1,16 @@
+implementation,seed,timesteps,status,seconds,penalty,updates,device
+SB3_CPU,11,8192,completed,24.09136419599986,,,
+SB3_CPU,22,8192,completed,19.78598098400016,,,
+SB3_CPU,33,8192,completed,19.989296500000137,,,
+SB3_CPU,44,8192,completed,19.615742085999955,,,
+SB3_CPU,55,8192,completed,19.755357614999866,,,
+JAX_TPU,11,8192,completed,26.416294147000144,0.05,256.0,"TPU_0(process=0,(0,0,0,0))"
+JAX_TPU,22,8192,completed,24.088955494999936,0.05,256.0,"TPU_0(process=0,(0,0,0,0))"
+JAX_TPU,33,8192,completed,24.18534858099997,0.05,256.0,"TPU_0(process=0,(0,0,0,0))"
+JAX_TPU,44,8192,completed,24.36460771499992,0.05,256.0,"TPU_0(process=0,(0,0,0,0))"
+JAX_TPU,55,8192,completed,23.90110289900008,0.05,256.0,"TPU_0(process=0,(0,0,0,0))"
+JAX_TPU,11,8192,completed,24.393231373000162,0.0,256.0,"TPU_0(process=0,(0,0,0,0))"
+JAX_TPU,22,8192,completed,24.06448906799983,0.0,256.0,"TPU_0(process=0,(0,0,0,0))"
+JAX_TPU,33,8192,completed,24.48800147599991,0.0,256.0,"TPU_0(process=0,(0,0,0,0))"
+JAX_TPU,44,8192,completed,25.026678405999974,0.0,256.0,"TPU_0(process=0,(0,0,0,0))"
+JAX_TPU,55,8192,completed,23.85153890300012,0.0,256.0,"TPU_0(process=0,(0,0,0,0))"

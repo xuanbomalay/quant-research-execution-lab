@@ -1,0 +1,416 @@
+{
+  "sources": [
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+      "status": 200,
+      "bytes": 3789099,
+      "sha256": "73a86c6aedc31f77cac2ea4df5f80f0b3bd7e6eb58bb4e01444fbedf3afb9c43",
+      "retrieved_utc": "2026-10-16T05:30:23.458700+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "status": 200,
+      "bytes": 164021,
+      "sha256": "b107d1a9bff83829e22fd165d2d69d24d4e5e861846e7ba9a23184bf274e340e",
+      "retrieved_utc": "2026-10-16T05:30:24.179722+00:00"
+    },
+    {
+      "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+      "status": 200,
+      "bytes": 11964,
+      "sha256": "36756c5c2559648519ac4b22913d860c6afd865cfebce920e3e8927f8e2d10b7",
+      "retrieved_utc": "2026-10-16T05:30:24.615070+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "status": 403,
+      "bytes": 4819,
+      "sha256": "c19b129e56ade44aec3d78de54335ad0a7b2862cdaadb90a53a6fdc25dbdcebf",
+      "retrieved_utc": "2026-10-16T05:30:25.371606+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "status": 200,
+      "bytes": 4881196,
+      "sha256": "f8aae2965b20ad0df44bdf7ccbedf797d275b6b8dc030154a7a311361bb7246f",
+      "retrieved_utc": "2026-10-16T05:30:30.939958+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000051143.json",
+      "status": 200,
+      "bytes": 5650571,
+      "sha256": "1660477fa5713e5749c3038cf22b3c776414acfc6e1e721d1772c91101dc5e5c",
+      "retrieved_utc": "2026-10-16T05:30:32.224214+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000050863.json",
+      "status": 200,
+      "bytes": 4311809,
+      "sha256": "70056711b8b04d3a27e4a42b6d86e26f85ddaa3d59e480039d66ccfb353eb0b8",
+      "retrieved_utc": "2026-10-16T05:30:33.321756+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000021344.json",
+      "status": 200,
+      "bytes": 5028478,
+      "sha256": "53d363a9aa3071406cda9857654358f4dca42e174a1defb8cc1ce9ad2a4c9e40",
+      "retrieved_utc": "2026-10-16T05:30:34.562361+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000077476.json",
+      "status": 200,
+      "bytes": 5006158,
+      "sha256": "4a734cc934f3cf9f129fc15657589d4c6c82138f1bd889023c11170d97990d8d",
+      "retrieved_utc": "2026-10-16T05:30:35.945037+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000063908.json",
+      "status": 200,
+      "bytes": 3579350,
+      "sha256": "0394e814d75510be107679b026e2df6e5d02d4f2029166911aa4924f9556681f",
+      "retrieved_utc": "2026-10-16T05:30:37.181459+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000080424.json",
+      "status": 200,
+      "bytes": 3913348,
+      "sha256": "8e7b5d62ec28d9901d6e8bc94e2ed73852985252eb7032542d4c8e24b2492ab5",
+      "retrieved_utc": "2026-10-16T05:30:38.378642+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000034088.json",
+      "status": 200,
+      "bytes": 3122723,
+      "sha256": "9b95535419e5662e3deed01de803e83deead477a4c81316e1c45186368fdd8b8",
+      "retrieved_utc": "2026-10-16T05:30:39.603212+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000093410.json",
+      "status": 200,
+      "bytes": 4810683,
+      "sha256": "c09b160603412cb45acf1bb9bf3732e531dedfb548afa0e275fd8aefd7ab397e",
+      "retrieved_utc": "2026-10-16T05:30:41.089942+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000018230.json",
+      "status": 200,
+      "bytes": 5868239,
+      "sha256": "01ddc6ffa741f0a7da440e2949b2ed19cec14fab35435a398e3f3d0100019715",
+      "retrieved_utc": "2026-10-16T05:30:42.334482+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000066740.json",
+      "status": 200,
+      "bytes": 5241880,
+      "sha256": "571391ded2a92e8cb1e7be5c22f3ac192f7fe9d4cada2dbdb985261297e6ecd4",
+      "retrieved_utc": "2026-10-16T05:30:44.065139+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/services/investor-information",
+      "status": 200,
+      "bytes": 166527,
+      "sha256": "3169de071fcd8783f061ae2c79470778301357d665b9c2628c3654936661f29e",
+      "retrieved_utc": "2026-10-16T05:30:45.189054+00:00"
+    },
+    {
+      "url": "https://drive.usercontent.google.com/download?id=1iq2RUf8qGFEAk1g8wQntP3habOnR3fXF&export=download&authuser=0&confirm=t",
+      "status": 200,
+      "bytes": 9093460,
+      "sha256": "e2d1328682bab7d2187684fb9f5420bb730401c9eefc00daf835edd203f4859d",
+      "retrieved_utc": "2026-10-16T05:30:47.379486+00:00"
+    },
+    {
+      "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_CSV.zip",
+      "status": 200,
+      "bytes": 5600,
+      "sha256": "c06d1c2e9a5e4f6985879722f23c6bb585f46b34eaf3fcb681d4de887e353f3e",
+      "retrieved_utc": "2026-10-16T05:31:18.060597+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000051143.json",
+      "status": 200,
+      "bytes": 166799,
+      "sha256": "48b6180e7fe331232ccbdda20c012f61b5b1ed42251c4d74c05c6db2f07326f8",
+      "retrieved_utc": "2026-10-16T05:31:32.608367+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000051143-submissions-001.json",
+      "status": 200,
+      "bytes": 310647,
+      "sha256": "b99ac37bdd3ddc0d227089c9417fbbba1c3b592f95dbf6d63c80e778ccf3c20c",
+      "retrieved_utc": "2026-10-16T05:31:33.410287+00:00"
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1P3KtWuDyQT2Eu_VwTU3D2sEeQxR9dWCS",
+      "status": 200,
+      "bytes": 9275166,
+      "sha256": "082776db7029c02412c500ecd91894d6e655563c6367012cc3064ffb7ae0e666",
+      "retrieved_utc": "2026-10-16T05:31:43.480396+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_3Q_2022_10-Q.pdf",
+      "status": 200,
+      "bytes": 829945,
+      "sha256": "59dc0d21a28255d4ec87f2223505458236499eabf4365cd2a4327b54a6ed3d92",
+      "retrieved_utc": "2026-10-16T05:31:54.134074+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2Q_2022_10-Q.pdf",
+      "status": 200,
+      "bytes": 1350681,
+      "sha256": "8c880cc7448eea8f0fb21b0123b44abf1a8410425501fe7a6c482efe7094cf30",
+      "retrieved_utc": "2026-10-16T05:31:56.990906+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_1Q_2022_10-Q.pdf",
+      "status": 200,
+      "bytes": 1310427,
+      "sha256": "8dc16a0931768f48bd8a39f79602cca0ef349ac8effa664267f884b5261a4cc1",
+      "retrieved_utc": "2026-10-16T05:32:06.305800+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/2021_annual_10k.pdf",
+      "status": 200,
+      "bytes": 488502,
+      "sha256": "77dd939f74c3b09dce1c6a72461935d890beaf866469dee7589458fc4a659095",
+      "retrieved_utc": "2026-10-16T05:32:08.539695+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_3Q_2021_10-Q.pdf",
+      "status": 200,
+      "bytes": 810830,
+      "sha256": "2a9019d611b13b4a7dfe651b130f06a934c78e4c45a7315717dff5529718d736",
+      "retrieved_utc": "2026-10-16T05:32:09.946137+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2Q_2021_10-Q.pdf",
+      "status": 200,
+      "bytes": 799428,
+      "sha256": "f36d970ccda8e48947003969db91e87080612fdeafc708eede87ff0f6da8de19",
+      "retrieved_utc": "2026-10-16T05:32:12.672111+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_1Q_2021_10-Q.pdf",
+      "status": 200,
+      "bytes": 656779,
+      "sha256": "755eddc0ddcc86abed43b0a96a657d1bc1ecbd91e37abf4155a6bb93fb01ed92",
+      "retrieved_utc": "2026-10-16T05:32:15.077446+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/2020_annual_10k.pdf",
+      "status": 200,
+      "bytes": 533783,
+      "sha256": "aca3b9c9bdd77e38b59dbbaa98c1703b87d996a05ffad7781ffcf87a760082eb",
+      "retrieved_utc": "2026-10-16T05:32:17.276872+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_3Q_2020_10-Q.pdf",
+      "status": 200,
+      "bytes": 858278,
+      "sha256": "226604d373e8ca2539ed371656b3d00cd0f8178cacbeb50881f9ac9089800abf",
+      "retrieved_utc": "2026-10-16T05:32:18.509870+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2Q_2020_10-Q.pdf",
+      "status": 200,
+      "bytes": 908505,
+      "sha256": "948cb3de99a560ccf5ba4af0b28d385769a240262cace5aff0de5b0f6469417e",
+      "retrieved_utc": "2026-10-16T05:32:21.855668+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_1Q_2020_10-Q.pdf",
+      "status": 200,
+      "bytes": 1147056,
+      "sha256": "72e5b360e52900874b84f96d2a4b1980baeecf6a027deb2302854b389e965873",
+      "retrieved_utc": "2026-10-16T05:32:24.461717+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2019_Annual_10K.pdf",
+      "status": 200,
+      "bytes": 806138,
+      "sha256": "dbfac5cc62f02a1390a9e7adef3d2fef4ebebba9477e4c15e8d5b95474a1327a",
+      "retrieved_utc": "2026-10-16T05:32:26.590036+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_3Q_2019_10-Q.pdf",
+      "status": 200,
+      "bytes": 850154,
+      "sha256": "54ce566f361c6e31eb7dd175302968d16f6c3a186b217cc04e1900740824afc2",
+      "retrieved_utc": "2026-10-16T05:32:28.061296+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2Q_2019_10-Q.pdf",
+      "status": 200,
+      "bytes": 806146,
+      "sha256": "43ced830fd28b350b1377220c662ec43e905c77a6a005877246709c3f1d2767e",
+      "retrieved_utc": "2026-10-16T05:32:30.997573+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_1Q_2019_10-Q.pdf",
+      "status": 200,
+      "bytes": 1772897,
+      "sha256": "04638ff96e3cfc7d8674e51d566f57a4ad892635536ace078261befc3e7b9be1",
+      "retrieved_utc": "2026-10-16T05:32:33.875469+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2018_Annual_10K.pdf",
+      "status": 200,
+      "bytes": 129458,
+      "sha256": "eaece22b17de02bb1ed219321923c57cc99abd36cd16f22871bd2ee05ad347f2",
+      "retrieved_utc": "2026-10-16T05:32:40.741721+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_3Q_2018_10-Q.pdf",
+      "status": 200,
+      "bytes": 866271,
+      "sha256": "41eeab5aca2c4ee9d3b27dca87de10ea7ac66698cdf9c7cd33306dac1e31a164",
+      "retrieved_utc": "2026-10-16T05:32:41.829900+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2Q_2018_10-Q.pdf",
+      "status": 200,
+      "bytes": 2169945,
+      "sha256": "c7f48bbfcd365d93ba22a99b8a618263bd1581297af170e7d67a02785a155aab",
+      "retrieved_utc": "2026-10-16T05:32:45.348005+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_1Q_2018_10-Q.pdf",
+      "status": 200,
+      "bytes": 2742766,
+      "sha256": "98586dc1902289a9d466e519744e8c2ebda55cb99810c277658611483c729afb",
+      "retrieved_utc": "2026-10-16T05:32:53.271748+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2017_Annual_10K.pdf",
+      "status": 200,
+      "bytes": 132856,
+      "sha256": "6d3095bfdd9c509a7acee79fdac10c12a3757ccb60d95a0154c9093bd1366534",
+      "retrieved_utc": "2026-10-16T05:32:56.266734+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_3Q_2017_10-Q.pdf",
+      "status": 200,
+      "bytes": 3886656,
+      "sha256": "a83402616f52dbb6d3c67307457a2d31aa71b8fa723bcc7d584895d8c0f7d7f7",
+      "retrieved_utc": "2026-10-16T05:32:57.223736+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2016_Annual_10K.pdf",
+      "status": 200,
+      "bytes": 131687,
+      "sha256": "82a727b72ec07311ea42ad83d6f46598c48e78bb662fd65cf3d16bd7279e1e9d",
+      "retrieved_utc": "2026-10-16T05:33:01.826748+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_3Q_2016_10-Q.pdf",
+      "status": 200,
+      "bytes": 2361291,
+      "sha256": "aeb47c686368e4917da35c48ae9a144efc86812327d091f0b18a4ccf82c760e5",
+      "retrieved_utc": "2026-10-16T05:33:03.355318+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2Q_2016_10-Q.pdf",
+      "status": 200,
+      "bytes": 764724,
+      "sha256": "8c6fa065fba9668e19faf90a5ffbb10d4b9ff7378d45ccd2ec98cf2e140c95b0",
+      "retrieved_utc": "2026-10-16T05:33:06.339022+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_1Q_2016_10-Q.pdf",
+      "status": 200,
+      "bytes": 530733,
+      "sha256": "b25b26177e7bd0c5f95955f0d44e315d1976eeec4d3249bb6bb17d9d2b5ac532",
+      "retrieved_utc": "2026-10-16T05:33:09.177069+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2015_Annual_10K.pdf",
+      "status": 200,
+      "bytes": 129963,
+      "sha256": "75be92794319bd41918ae0117b5047e58944134d7ecd9174f8fb021458e51b8b",
+      "retrieved_utc": "2026-10-16T05:33:12.435929+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_3Q_2015_10-Q.pdf",
+      "status": 200,
+      "bytes": 634068,
+      "sha256": "a8395ed9bb1148c5e742cdf269863ccb89c4197372bf1cba9b63cceb43732cf9",
+      "retrieved_utc": "2026-10-16T05:33:13.194206+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_2Q_2015_10-Q.pdf",
+      "status": 200,
+      "bytes": 850663,
+      "sha256": "cd1ae1616b2006884e30aa7b38255ecb72a35c014c3ac03cccdfe55f25b10ed4",
+      "retrieved_utc": "2026-10-16T05:33:17.589880+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/1q15_10q.pdf",
+      "status": 200,
+      "bytes": 655172,
+      "sha256": "998fcf53c764e7548d88a0701cafa32b5bbe3df1b03413d287da3474c10e4aa2",
+      "retrieved_utc": "2026-10-16T05:33:21.733870+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/2014_annual_10k.pdf",
+      "status": 200,
+      "bytes": 131814,
+      "sha256": "6991afe2097e0a952b9f5fcf539be039ed050e95e48a955f8bdddeacda785791",
+      "retrieved_utc": "2026-10-16T05:33:23.978870+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/10Q_3Q2014.pdf",
+      "status": 200,
+      "bytes": 636722,
+      "sha256": "2bdcc1ea1abda448d10f09abd087f4111170c1c1c037885c5d8340dea1868716",
+      "retrieved_utc": "2026-10-16T05:33:24.752229+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/10Q_2Q2014.pdf",
+      "status": 200,
+      "bytes": 711212,
+      "sha256": "103bda24421bcde6a485dbdd3838956097cc6fd4220564e83ca331beef0eae83",
+      "retrieved_utc": "2026-10-16T05:33:27.581373+00:00"
+    },
+    {
+      "url": "https://www.ibm.com/investor/att/pdf/2013_10-k.pdf",
+      "status": 200,
+      "bytes": 126704,
+      "sha256": "c60cb9b82fb9acc6f9c97109a1edc04be7ed9a5b60be17d97b05a4a86f779719",
+      "retrieved_utc": "2026-10-16T05:33:30.165487+00:00"
+    },
+    {
+      "url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+      "status": 200,
+      "bytes": 473788,
+      "sha256": "142da967f3994c3c6e55d94eceea9288ff01bc4a971c8bc0c1d618ae8583e2f9",
+      "retrieved_utc": "2026-10-16T05:53:18.526962+00:00"
+    }
+  ],
+  "prices": {
+    "provider": "Yahoo via yfinance",
+    "start": "2012-01-03 00:00:00",
+    "end": "2022-12-30 00:00:00",
+    "sha256": "7607fc501502cda5326b20f59b566eb79f044ff772a53319418f55103174f02f",
+    "scope": "fixed survivors; adjusted synthetic units; no delisted universe",
+    "missing_removed": 0
+  },
+  "microstructure": {
+    "requested_url": "https://data.lobsterdata.com/info/sample/LOBSTER_SampleFile_AAPL_2012-06-21_1.zip",
+    "retrieved_utc": "2026-10-16T05:43:22.866267+00:00",
+    "redistribution": "raw data excluded from portfolio package",
+    "source_kind": "SYNTHETIC_MECHANISM_ONLY",
+    "reason": "HTTPSConnectionPool(host='data.lobsterdata.com', port=443): Max retries exceeded with url: /info/sample/LOBSTER_SampleFile_AAPL_2012-06-21_1.zip (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7be1b1ef51d0>: Failed to resolve 'data.lobsterdata.com' ([Errno -2] Name or service not known)\"))",
+    "seed": 7001,
+    "rows": 50000,
+    "limitations": "synthetic L1 quotes and event stream, not a full exchange order-ID reconstruction"
+  },
+  "VIX": {
+    "url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "sha256": "142da967f3994c3c6e55d94eceea9288ff01bc4a971c8bc0c1d618ae8583e2f9",
+    "source": "Cboe VIX official daily closes",
+    "SPX_source": "Yahoo ^GSPC index close",
+    "window": "(t,t+30 calendar days], close-to-close squared log returns; 365/30 annualization",
+    "not_a_trade": "VIX is an index, no option-chain execution evidence"
+  },
+  "snapshot_source_hash": "f665bf8a293d3359b1d9ba061a2a9971c2e4632e1f0b3db304bae7fd90c9fe1d"
+}
